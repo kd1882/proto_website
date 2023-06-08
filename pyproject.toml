@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sample_webpage"
+version = "0.1.0"
+description = "Sample site using flask"
+authors = ["Ken Davis <kd_112@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.3.2"
+simple-flask-cms = "^0.0.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
